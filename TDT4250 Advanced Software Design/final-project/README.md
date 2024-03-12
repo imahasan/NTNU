@@ -1,11 +1,11 @@
 # Advanced Software Design Project – Group 13
 
 ## Authors:
- - André Esgalhado - 105186
- - João Fitas - 105980
- - Loïc Savornin - 105038
- - Md. Anwarul Hasan - 583233
- - Rémi Bernard - 105934
+ - André Esgalhado
+ - João Fitas
+ - Loïc Savornin
+ - Md. Anwarul Hasan
+ - Rémi Bernard
 
 ## Importing the Project:
 We recomend using the eclipse import option and selecting the repository root folder so that you can select all the projects at once and avoid having to import them one by one. Note that apart from the projects inside the osgi folder, all the other projects have dependencies and must all be imported to a same workspace to ensure correct operation. **Concretly all the projects in Scheduling-Algorithm, Scheduling-Requirements and Timetable folders have dependencies and must all be imported to a same workspace.** These folders exist to help with organization within the repository.
@@ -14,9 +14,6 @@ The projects in the OSGI-JSON timetable folder seem to not be correctly build on
 
 ## Components:
 ### Timetable Metamodel
-#### Contributions:
-- Rémi Bernard - 90%
-- João Fitas - 10%
 
 #### Comments:
 The projects corresponding to the Timetable Metamodel component are:<br>
@@ -27,16 +24,11 @@ no.ntnu.tdt4250.group13.timetable.editor
 An instance of the metamodel can be found in the main folder of the no.ntnu.tdt4250.group13.timetable project, with the name test.timetable.
 
 ### Scheduling Requirements Metamodel
-#### Contributions:
-- João Fitas - 90%
-- Rémi Bernard - 10%
 
 #### Comments:
 Two example implementation of this metamodel can be found in the Scheduling_requirements examples. This can be used allong with the existing timetable example on the generator.
 
 ### Base Scheduling Algorithm
-#### Contributions:
-- João Fitas - 100%
 
 #### Use:
 This component is incorporated in the UI of the aplication and can be used thru it. 
@@ -62,9 +54,6 @@ With this information, it iterates over each week and attempts to create slots f
 In case incompatibility is detected, an error message is displayed and a new University is requested to the factory and returned to the user.
 
 ### Generator Component
-#### Contributions:
-- Rémi Bernard - 100% (HTML)
-- Loïc Savornin - 100% (icalendar)
 
 #### Comments:
 The Generator Component is split into two components, which correspond to the following projects:<br>
@@ -80,9 +69,6 @@ A configuration called Generateics.launch has already been added to the project 
 You can then import one or several generated files in your calendar application.
 
 ### Scheduling Requirements Textual Syntax
-#### Contributions:
-- Rémi Bernard - 100%
-- Md Anwarul Hasan - Tried to generate this on a windows PC but things did not generate properly.
 
 #### Comments:
 The projects corresponding to the Scheduling Requirements Textual Syntax are:<br>
@@ -97,8 +83,6 @@ The five first projects corresponds to the concrete textual syntax and editor fo
 The no.ntnu.tdt4250.group13.scheduling_requirements.xtext.examples project contains an example of use of this textual syntax. If you want to create another example, you can launch a runtime application of Eclipse from the workspace where there are all the projects, import the example project, and create a new file in this project with the extension: .srdsl.
 
 ### Timetable Graphical Syntax
-#### Contributions:
-- Rémi Bernard - 100%
 
 #### Comments:
 The projects corresponding to the Timetable Graphical Syntax component are:<br>
@@ -110,8 +94,6 @@ The no.ntnu.tdt4250.group13.timetable.diagram.editor projects corresponds to the
 The no.ntnu.tdt4250.group13.timetable.examples project contains an example of model on which it is possible to use the editor.
 
 ### UI Controls
-#### Contributions:
-- Rémi Bernard - 100%
 
 #### Comments:
 The project corresponding the the UI Controls component is:<br> no.ntnu.tdt4250.group13.timetable.uicontrols
@@ -133,8 +115,6 @@ On the image above, you can see the three parts of the application:
 ![](./Readme-Images/3.png)
 
 ### JSON Timetable Servlet -> Attempt 1
-#### Contributions:
-- Md Anwarul Hasan - 100%
 
 #### Note:
 There was a first attempt at implementing this component by Md Anwarul Hasan, however it did not fully work, present in the folders "osgi" and "OSGi-JSON timetable".
@@ -147,8 +127,6 @@ Run URL:
 http://localhost:8080/data/timetable
 
 ### Generated Artifacts Servlets including JSON Timetable Servlet (Attempt 2)
-#### Contributions:
-- André Esgalhado - 100%
 
 #### Note:
 After the initial failed attempt, André Esgalhado tried to implement the JSON Timetable Servlet component and made a functional version in the folder "OSGi-Artifacts Servlets"
@@ -179,10 +157,6 @@ Professor Timetable: http://localhost:8080/timetable/model.xmi/Alex
 Course iCalendar: http://localhost:8080/icalendar/model.xmi/Artificial%20Intelligence
 
 ### Packaging and Deployment
-#### Contributions:
-- André Esgalhado
-- João Fitas
-- Rémi Bernard
 
 The packaging for the core concepts: Timetable and Scheduling Requirements is done using maven and can be found inside the respective folders.
 
