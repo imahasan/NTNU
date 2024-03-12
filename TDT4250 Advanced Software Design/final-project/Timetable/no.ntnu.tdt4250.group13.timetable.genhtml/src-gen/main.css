@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 280%;
+    margin-top: 4%;
+    color: darkcyan;
+}
+
+a {
+    margin-bottom: 1%;
+    padding: 1%;
+    font-size: 140%;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border: thin solid grey;
+    border-radius: 8px;
+    align-items: center;
+    transition: transform 1s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}

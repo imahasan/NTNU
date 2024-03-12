@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:timetable="http://www.example.org/timetable" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_LR18QJa4Ee6AeNXllgnRcQ" selectedViews="_vz-tYJbBEe6kGvyIGLhuGQ" version="15.2.0.202303281325">
+    <semanticResources>test.timetable</semanticResources>
+    <semanticResources>platform:/resource/no.ntnu.tdt4250.group13.timetable/model/timetable.genmodel</semanticResources>
+    <semanticResources>platform:/resource/no.ntnu.tdt4250.group13.timetable/model/timetable.ecore</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vz-tYJbBEe6kGvyIGLhuGQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_v0dOgJbBEe6kGvyIGLhuGQ" name="TimetableDiagram" repPath="#_v0MIwJbBEe6kGvyIGLhuGQ" changeId="1702146962621">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']"/>
+        <target xmi:type="timetable:University" href="test.timetable#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_v0MIwJbBEe6kGvyIGLhuGQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_v1ODgJbBEe6kGvyIGLhuGQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_v1ODgZbBEe6kGvyIGLhuGQ" type="Sirius" element="_v0MIwJbBEe6kGvyIGLhuGQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_v3ZNwJbBEe6kGvyIGLhuGQ" type="2001" element="_v1l28JbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3gigJbBEe6kGvyIGLhuGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v3gigZbBEe6kGvyIGLhuGQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v3t94JbBEe6kGvyIGLhuGQ" type="3003" element="_v1-RcJbBEe6kGvyIGLhuGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v3t94ZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3t94pbBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3ZNwZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3ZNwpbBEe6kGvyIGLhuGQ" x="810" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v3mCEJbBEe6kGvyIGLhuGQ" type="2001" element="_v2M68JbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3mpIJbBEe6kGvyIGLhuGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v3mpIZbBEe6kGvyIGLhuGQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v3uk8JbBEe6kGvyIGLhuGQ" type="3003" element="_v2M68ZbBEe6kGvyIGLhuGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v3uk8ZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3uk8pbBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3mCEZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3mCEpbBEe6kGvyIGLhuGQ" x="1440" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v3mpIpbBEe6kGvyIGLhuGQ" type="2001" element="_v2M685bBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3nQMJbBEe6kGvyIGLhuGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v3nQMZbBEe6kGvyIGLhuGQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v3uk85bBEe6kGvyIGLhuGQ" type="3003" element="_v2NiAJbBEe6kGvyIGLhuGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v3uk9JbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3uk9ZbBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3mpI5bBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3mpJJbBEe6kGvyIGLhuGQ" x="1950" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v3nQMpbBEe6kGvyIGLhuGQ" type="2001" element="_v2NiApbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3n3QJbBEe6kGvyIGLhuGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v3n3QZbBEe6kGvyIGLhuGQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v3vMAJbBEe6kGvyIGLhuGQ" type="3003" element="_v2NiA5bBEe6kGvyIGLhuGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v3vMAZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3vMApbBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3nQM5bBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3nQNJbBEe6kGvyIGLhuGQ" x="2100" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v3pFYJbBEe6kGvyIGLhuGQ" type="2002" element="_v2P-QJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3qTgJbBEe6kGvyIGLhuGQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_v3rhoJbBEe6kGvyIGLhuGQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_v3vzEJbBEe6kGvyIGLhuGQ" type="3008" element="_v2TBkJbBEe6kGvyIGLhuGQ">
+              <children xmi:type="notation:Node" xmi:id="_v3waIJbBEe6kGvyIGLhuGQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_v3waIZbBEe6kGvyIGLhuGQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_v3xBMJbBEe6kGvyIGLhuGQ" type="3008" element="_v2UPsJbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v3xBM5bBEe6kGvyIGLhuGQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_v3xBNJbBEe6kGvyIGLhuGQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_v3xoS5bBEe6kGvyIGLhuGQ" type="3008" element="_v2Vd0pbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v3yPUJbBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v3yPUZbBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v3yPUpbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v3yPU5bBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v3yPVJbBEe6kGvyIGLhuGQ" type="3012" element="_v2WE4ZbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v3yPV5bBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v3yPWJbBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v38AUJbBEe6kGvyIGLhuGQ" type="3003" element="_v2WE4pbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v38AUZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v38AUpbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v3yPVZbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3yPVpbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v3xoTJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3xoTZbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_v3xBNZbBEe6kGvyIGLhuGQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_v3xBNpbBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v3xBMZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3xBMpbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_v3xBN5bBEe6kGvyIGLhuGQ" type="3008" element="_v2UPs5bBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v3xBOpbBEe6kGvyIGLhuGQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_v3xBO5bBEe6kGvyIGLhuGQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_v38nYJbBEe6kGvyIGLhuGQ" type="3008" element="_v2XTAJbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v38nY5bBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v38nZJbBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v38nZZbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v38nZpbBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v38nZ5bBEe6kGvyIGLhuGQ" type="3012" element="_v2YhIJbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v38napbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v38na5bBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v38nbJbBEe6kGvyIGLhuGQ" type="3003" element="_v2ZIMJbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v38nbZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v38nbpbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v38naJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v38naZbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v38nYZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v38nYpbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_v3xBPJbBEe6kGvyIGLhuGQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_v3xBPZbBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v3xBOJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3xBOZbBEe6kGvyIGLhuGQ" x="190" y="24"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_v3xBPpbBEe6kGvyIGLhuGQ" type="3008" element="_v2U2wZbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v3xoQJbBEe6kGvyIGLhuGQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_v3xoQZbBEe6kGvyIGLhuGQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_v39OcJbBEe6kGvyIGLhuGQ" type="3008" element="_v2ZvQJbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v39Oc5bBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v39OdJbBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v39OdZbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v39OdpbBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v39Od5bBEe6kGvyIGLhuGQ" type="3012" element="_v2a9YJbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v39OepbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v39Oe5bBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v391gJbBEe6kGvyIGLhuGQ" type="3003" element="_v2a9YZbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v391gZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v391gpbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v39OeJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v39OeZbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v39OcZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v39OcpbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_v3xoQpbBEe6kGvyIGLhuGQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_v3xoQ5bBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v3xBP5bBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3xBQJbBEe6kGvyIGLhuGQ" x="385" y="24"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_v3xoRJbBEe6kGvyIGLhuGQ" type="3008" element="_v2U2xJbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v3xoR5bBEe6kGvyIGLhuGQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_v3xoSJbBEe6kGvyIGLhuGQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_v391g5bBEe6kGvyIGLhuGQ" type="3008" element="_v2cykJbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v391hpbBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v391h5bBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v391iJbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v391iZbBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v391ipbBEe6kGvyIGLhuGQ" type="3012" element="_v2eAsJbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v3-ckJbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v3-ckZbBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v3-ckpbBEe6kGvyIGLhuGQ" type="3003" element="_v2eAsZbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3-ck5bBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3-clJbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v391i5bBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v391jJbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v391hJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v391hZbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_v3xoSZbBEe6kGvyIGLhuGQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_v3xoSpbBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v3xoRZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3xoRpbBEe6kGvyIGLhuGQ" x="565" y="24"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_v3waIpbBEe6kGvyIGLhuGQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_v3waI5bBEe6kGvyIGLhuGQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_v3vzEZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3vzEpbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_v3rhoZbBEe6kGvyIGLhuGQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_v3rhopbBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3pFYZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3pFYpbBEe6kGvyIGLhuGQ" x="450" y="105"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v3sIsJbBEe6kGvyIGLhuGQ" type="2002" element="_v2RzcZbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3sIs5bBEe6kGvyIGLhuGQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_v3sItJbBEe6kGvyIGLhuGQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_v3-clZbBEe6kGvyIGLhuGQ" type="3008" element="_v2enwJbBEe6kGvyIGLhuGQ">
+              <children xmi:type="notation:Node" xmi:id="_v3_DoJbBEe6kGvyIGLhuGQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_v3_DoZbBEe6kGvyIGLhuGQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_v3_DpJbBEe6kGvyIGLhuGQ" type="3008" element="_v2fO0ZbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v3_Dp5bBEe6kGvyIGLhuGQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_v3_DqJbBEe6kGvyIGLhuGQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_v3_Dq5bBEe6kGvyIGLhuGQ" type="3008" element="_v2f14ZbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v3_qsJbBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v3_qsZbBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v3_qspbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v3_qs5bBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v4ARx5bBEe6kGvyIGLhuGQ" type="3012" element="_v2hEAJbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v4ARypbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v4ARy5bBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v4A40JbBEe6kGvyIGLhuGQ" type="3003" element="_v2hEAZbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4A40ZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4A40pbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v4ARyJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4ARyZbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v3_DrJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3_DrZbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_v4ARwJbBEe6kGvyIGLhuGQ" type="3008" element="_v2gc8ZbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v4ARw5bBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v4ARxJbBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v4ARxZbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v4ARxpbBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v4A405bBEe6kGvyIGLhuGQ" type="3012" element="_v2hrEJbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v4A41pbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v4A415bBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v4CG8JbBEe6kGvyIGLhuGQ" type="3003" element="_v2iSIJbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4CG8ZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4CG8pbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v4A41JbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4A41ZbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v4ARwZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4ARwpbBEe6kGvyIGLhuGQ" x="160" y="24"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_v3_DqZbBEe6kGvyIGLhuGQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_v3_DqpbBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v3_DpZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3_DppbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_v3_DopbBEe6kGvyIGLhuGQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_v3_Do5bBEe6kGvyIGLhuGQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_v3-clpbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3-cl5bBEe6kGvyIGLhuGQ" x="25" y="24"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_v3sItZbBEe6kGvyIGLhuGQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_v3sItpbBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3sIsZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3sIspbBEe6kGvyIGLhuGQ" x="1305" y="105"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v3sIt5bBEe6kGvyIGLhuGQ" type="2002" element="_v2SagZbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3svwJbBEe6kGvyIGLhuGQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_v3svwZbBEe6kGvyIGLhuGQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_v4CG85bBEe6kGvyIGLhuGQ" type="3008" element="_v2i5MJbBEe6kGvyIGLhuGQ">
+              <children xmi:type="notation:Node" xmi:id="_v4CG9pbBEe6kGvyIGLhuGQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_v4CuAJbBEe6kGvyIGLhuGQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_v4CuA5bBEe6kGvyIGLhuGQ" type="3008" element="_v2kuYJbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v4CuBpbBEe6kGvyIGLhuGQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_v4CuB5bBEe6kGvyIGLhuGQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_v4DVFJbBEe6kGvyIGLhuGQ" type="3008" element="_v2nKoZbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v4DVF5bBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v4DVGJbBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v4DVGZbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v4DVGpbBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v4D8J5bBEe6kGvyIGLhuGQ" type="3012" element="_v2pm4JbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v4D8KpbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v4D8K5bBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v4EjMJbBEe6kGvyIGLhuGQ" type="3003" element="_v2pm4ZbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4EjMZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4EjMpbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v4D8KJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4D8KZbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v4DVFZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4DVFpbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_v4D8IJbBEe6kGvyIGLhuGQ" type="3008" element="_v2oYwZbBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v4D8I5bBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v4D8JJbBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v4D8JZbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v4D8JpbBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v4EjM5bBEe6kGvyIGLhuGQ" type="3012" element="_v2qN8JbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v4EjNpbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v4EjN5bBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v4FKQJbBEe6kGvyIGLhuGQ" type="3003" element="_v2qN8ZbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4FKQZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4FKQpbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v4EjNJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4EjNZbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v4D8IZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4D8IpbBEe6kGvyIGLhuGQ" x="190" y="24"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_v4CuCJbBEe6kGvyIGLhuGQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_v4CuCZbBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v4CuBJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4CuBZbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_v4CuCpbBEe6kGvyIGLhuGQ" type="3008" element="_v2mjkJbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v4DVEJbBEe6kGvyIGLhuGQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_v4DVEZbBEe6kGvyIGLhuGQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_v4FKQ5bBEe6kGvyIGLhuGQ" type="3008" element="_v2qN85bBEe6kGvyIGLhuGQ">
+                      <children xmi:type="notation:Node" xmi:id="_v4FKRpbBEe6kGvyIGLhuGQ" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_v4FKR5bBEe6kGvyIGLhuGQ" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_v4FKSJbBEe6kGvyIGLhuGQ"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_v4FKSZbBEe6kGvyIGLhuGQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_v4FKSpbBEe6kGvyIGLhuGQ" type="3012" element="_v2q1AZbBEe6kGvyIGLhuGQ">
+                        <children xmi:type="notation:Node" xmi:id="_v4FKTZbBEe6kGvyIGLhuGQ" type="5010">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_v4FKTpbBEe6kGvyIGLhuGQ" y="5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_v4FxUJbBEe6kGvyIGLhuGQ" type="3003" element="_v2q1ApbBEe6kGvyIGLhuGQ">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_v4FxUZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4FxUpbBEe6kGvyIGLhuGQ"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_v4FKS5bBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4FKTJbBEe6kGvyIGLhuGQ" x="-22" width="30" height="30"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_v4FKRJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4FKRZbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_v4DVEpbBEe6kGvyIGLhuGQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_v4DVE5bBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v4CuC5bBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4CuDJbBEe6kGvyIGLhuGQ" x="355" y="24"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_v4CuAZbBEe6kGvyIGLhuGQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_v4CuApbBEe6kGvyIGLhuGQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_v4CG9JbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4CG9ZbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_v3svwpbBEe6kGvyIGLhuGQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_v3svw5bBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3sIuJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3sIuZbBEe6kGvyIGLhuGQ" x="1695" y="105"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v3svxJbBEe6kGvyIGLhuGQ" type="2002" element="_v2rcEJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v3svx5bBEe6kGvyIGLhuGQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_v3svyJbBEe6kGvyIGLhuGQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_v4FxU5bBEe6kGvyIGLhuGQ" type="3008" element="_v2rcE5bBEe6kGvyIGLhuGQ">
+              <children xmi:type="notation:Node" xmi:id="_v4FxVpbBEe6kGvyIGLhuGQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_v4FxV5bBEe6kGvyIGLhuGQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_v4GYYJbBEe6kGvyIGLhuGQ" type="3007" element="_v2sDIZbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v4GYY5bBEe6kGvyIGLhuGQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_v4GYZJbBEe6kGvyIGLhuGQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_v4HmgpbBEe6kGvyIGLhuGQ" type="3003" element="_v2sDIpbBEe6kGvyIGLhuGQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_v4Hmg5bBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4HmhJbBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v4GYYZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4GYYpbBEe6kGvyIGLhuGQ" x="25" y="24" width="80" height="40"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_v4GYZZbBEe6kGvyIGLhuGQ" type="3007" element="_v2sqMZbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v4G_cJbBEe6kGvyIGLhuGQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_v4G_cZbBEe6kGvyIGLhuGQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_v4HmhZbBEe6kGvyIGLhuGQ" type="3003" element="_v2sqMpbBEe6kGvyIGLhuGQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_v4HmhpbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4Hmh5bBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v4GYZpbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4GYZ5bBEe6kGvyIGLhuGQ" x="145" y="24" width="80" height="40"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_v4G_cpbBEe6kGvyIGLhuGQ" type="3007" element="_v2tRQJbBEe6kGvyIGLhuGQ">
+                  <children xmi:type="notation:Node" xmi:id="_v4HmgJbBEe6kGvyIGLhuGQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_v4HmgZbBEe6kGvyIGLhuGQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_v4INkJbBEe6kGvyIGLhuGQ" type="3003" element="_v2tRQZbBEe6kGvyIGLhuGQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_v4INkZbBEe6kGvyIGLhuGQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4INkpbBEe6kGvyIGLhuGQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_v4G_c5bBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4G_dJbBEe6kGvyIGLhuGQ" x="280" y="24" width="80" height="40"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_v4FxWJbBEe6kGvyIGLhuGQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_v4FxWZbBEe6kGvyIGLhuGQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_v4FxVJbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4FxVZbBEe6kGvyIGLhuGQ" x="25" y="24"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_v3svyZbBEe6kGvyIGLhuGQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_v3svypbBEe6kGvyIGLhuGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v3svxZbBEe6kGvyIGLhuGQ" fontColor="16777215" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v3svxpbBEe6kGvyIGLhuGQ"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_v1ODgpbBEe6kGvyIGLhuGQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_v4W3EJbBEe6kGvyIGLhuGQ" type="4001" element="_v2zX4JbBEe6kGvyIGLhuGQ" source="_v3xoS5bBEe6kGvyIGLhuGQ" target="_v4G_cpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4YFMJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4YFMZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4ahcJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4ahcZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4ahcpbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4ahc5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4W3EZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4W3EpbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4W3E5bBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4k5gJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4k5gZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4k5gpbBEe6kGvyIGLhuGQ" type="4001" element="_v243cJbBEe6kGvyIGLhuGQ" source="_v38nYJbBEe6kGvyIGLhuGQ" target="_v4GYZZbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4k5hpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4k5h5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4k5iJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4k5iZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4k5ipbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4k5i5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4k5g5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4k5hJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4k5hZbBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4lgkJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4lgkZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4lgkpbBEe6kGvyIGLhuGQ" type="4001" element="_v25egpbBEe6kGvyIGLhuGQ" source="_v39OcJbBEe6kGvyIGLhuGQ" target="_v4GYYJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4lglpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4lgl5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4lgmJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4lgmZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4mHoJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4mHoZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4lgk5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4lglJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4lglZbBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4mHopbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4mHo5bBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4mHpJbBEe6kGvyIGLhuGQ" type="4001" element="_v26soJbBEe6kGvyIGLhuGQ" source="_v391g5bBEe6kGvyIGLhuGQ" target="_v4GYYJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4mHqJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4mHqZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4musJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4musZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4muspbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4mus5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4mHpZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4mHppbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4mHp5bBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4mutJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4mutZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4mutpbBEe6kGvyIGLhuGQ" type="4001" element="_v27TspbBEe6kGvyIGLhuGQ" source="_v3_Dq5bBEe6kGvyIGLhuGQ" target="_v4GYZZbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4nVwJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4nVwZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4nVwpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4nVw5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4nVxJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4nVxZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4mut5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4muuJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4muuZbBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4nVxpbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4nVx5bBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4nVyJbBEe6kGvyIGLhuGQ" type="4001" element="_v276wJbBEe6kGvyIGLhuGQ" source="_v4ARwJbBEe6kGvyIGLhuGQ" target="_v4G_cpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4nVzJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4nVzZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4nVzpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4nVz5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4nV0JbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4nV0ZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4nVyZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4nVypbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4nVy5bBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4oj4JbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4oj4ZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4oj4pbBEe6kGvyIGLhuGQ" type="4001" element="_v276xZbBEe6kGvyIGLhuGQ" source="_v4DVFJbBEe6kGvyIGLhuGQ" target="_v4GYZZbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4oj5pbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4oj55bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4oj6JbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4oj6ZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4oj6pbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pK8JbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4oj45bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4oj5JbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4oj5ZbBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4pK8ZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4pK8pbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4pK85bBEe6kGvyIGLhuGQ" type="4001" element="_v276ypbBEe6kGvyIGLhuGQ" source="_v4D8IJbBEe6kGvyIGLhuGQ" target="_v4GYYJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4pK95bBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pK-JbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4pK-ZbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pK-pbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4pK-5bBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pK_JbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4pK9JbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4pK9ZbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4pK9pbBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4pyAJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4pyAZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4pyApbBEe6kGvyIGLhuGQ" type="4001" element="_v28h1JbBEe6kGvyIGLhuGQ" source="_v4FKQ5bBEe6kGvyIGLhuGQ" target="_v4GYYJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4pyBpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pyB5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4pyCJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pyCZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4pyCpbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4pyC5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4pyA5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4pyBJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4pyBZbBEe6kGvyIGLhuGQ" points="[1, 1, -40, -20]$[1, 1, -40, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4qZEJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4qZEZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4qZEpbBEe6kGvyIGLhuGQ" type="4001" element="_v28h2ZbBEe6kGvyIGLhuGQ" source="_v3xoS5bBEe6kGvyIGLhuGQ" target="_v3ZNwJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4qZFpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4qZF5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4qZGJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4qZGZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4qZGpbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4qZG5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4qZE5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4qZFJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4qZFZbBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4qZHJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4qZHZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4qZHpbBEe6kGvyIGLhuGQ" type="4001" element="_v29I5JbBEe6kGvyIGLhuGQ" source="_v38nYJbBEe6kGvyIGLhuGQ" target="_v3mCEJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4rAIJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4rAIZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4rAIpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4rAI5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4rAJJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4rAJZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4qZH5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4qZIJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4qZIZbBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4rAJpbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4rAJ5bBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4rAKJbBEe6kGvyIGLhuGQ" type="4001" element="_v29I6ZbBEe6kGvyIGLhuGQ" source="_v39OcJbBEe6kGvyIGLhuGQ" target="_v3ZNwJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4rALJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4rALZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4rnMJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4rnMZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4rnMpbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4rnM5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4rAKZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4rAKpbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4rAK5bBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4rnNJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4rnNZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4rnNpbBEe6kGvyIGLhuGQ" type="4001" element="_v29v8pbBEe6kGvyIGLhuGQ" source="_v391g5bBEe6kGvyIGLhuGQ" target="_v3ZNwJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4sOQJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4sOQZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4sOQpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4sOQ5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4sORJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4sORZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4rnN5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4rnOJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4rnOZbBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4s1UJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4s1UZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4s1UpbBEe6kGvyIGLhuGQ" type="4001" element="_v29v95bBEe6kGvyIGLhuGQ" source="_v3_Dq5bBEe6kGvyIGLhuGQ" target="_v3mCEJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4s1VpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4s1V5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4s1WJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4s1WZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4s1WpbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4s1W5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4s1U5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4s1VJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4s1VZbBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4tcYJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4tcYZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4tcYpbBEe6kGvyIGLhuGQ" type="4001" element="_v2-XApbBEe6kGvyIGLhuGQ" source="_v4ARwJbBEe6kGvyIGLhuGQ" target="_v3mCEJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4tcZpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4tcZ5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4tcaJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4tcaZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4tcapbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4tca5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4tcY5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4tcZJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4tcZZbBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4tcbJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4tcbZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4uqgJbBEe6kGvyIGLhuGQ" type="4001" element="_v2-XB5bBEe6kGvyIGLhuGQ" source="_v4DVFJbBEe6kGvyIGLhuGQ" target="_v3mpIpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4uqhJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4uqhZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4vRkJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4vRkZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4v4oJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4v4oZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4uqgZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4uqgpbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4uqg5bBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4wfsJbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4wfsZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4wfspbBEe6kGvyIGLhuGQ" type="4001" element="_v2--EJbBEe6kGvyIGLhuGQ" source="_v4D8IJbBEe6kGvyIGLhuGQ" target="_v3mpIpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4wftpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4wft5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4wfuJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4wfuZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4xGwJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4xGwZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4wfs5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4wftJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4wftZbBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4xGwpbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4xGw5bBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4xGxJbBEe6kGvyIGLhuGQ" type="4001" element="_v2--FZbBEe6kGvyIGLhuGQ" source="_v4D8IJbBEe6kGvyIGLhuGQ" target="_v3nQMpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4xGyJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4xGyZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4xt0JbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4xt0ZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4xt0pbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4xt05bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4xGxZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4xGxpbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4xGx5bBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4xt1JbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4xt1ZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4yU4JbBEe6kGvyIGLhuGQ" type="4001" element="_v2--GpbBEe6kGvyIGLhuGQ" source="_v4FKQ5bBEe6kGvyIGLhuGQ" target="_v3mpIpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4yU5JbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4yU5ZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4yU5pbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4yU55bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4yU6JbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4yU6ZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4yU4ZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4yU4pbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4yU45bBEe6kGvyIGLhuGQ" points="[1, 0, -50, -26]$[1, 1, -50, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4y78JbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4y78ZbBEe6kGvyIGLhuGQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4y78pbBEe6kGvyIGLhuGQ" type="4001" element="_v2_lIpbBEe6kGvyIGLhuGQ" source="_v3pFYJbBEe6kGvyIGLhuGQ" target="_v3ZNwJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4y79pbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4y795bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4y7-JbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4y7-ZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v4y7-pbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4y7-5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4y785bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4y79JbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4y79ZbBEe6kGvyIGLhuGQ" points="[-3, 0, 0, 60]$[-3, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4zjAJbBEe6kGvyIGLhuGQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4zjAZbBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v4zjApbBEe6kGvyIGLhuGQ" type="4001" element="_v2_lJ5bBEe6kGvyIGLhuGQ" source="_v3sIsJbBEe6kGvyIGLhuGQ" target="_v3mCEJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v4zjBpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4zjB5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v40KEJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v40KEZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v40KEpbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v40KE5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v4zjA5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v4zjBJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4zjBZbBEe6kGvyIGLhuGQ" points="[-2, 0, 0, 60]$[-2, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v40KFJbBEe6kGvyIGLhuGQ" id="(0.5054945054945055,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v40KFZbBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v40KFpbBEe6kGvyIGLhuGQ" type="4001" element="_v2_lLJbBEe6kGvyIGLhuGQ" source="_v3sIt5bBEe6kGvyIGLhuGQ" target="_v3mpIpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v41YMJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v41YMZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v41YMpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v41YM5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v41YNJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v41YNZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v40KF5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v40KGJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v40KGZbBEe6kGvyIGLhuGQ" points="[-2, 0, 0, 60]$[-2, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v41YNpbBEe6kGvyIGLhuGQ" id="(0.504556667821974,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v41YN5bBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v41YOJbBEe6kGvyIGLhuGQ" type="4001" element="_v3AMMpbBEe6kGvyIGLhuGQ" source="_v3pFYJbBEe6kGvyIGLhuGQ" target="_v3ZNwJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v41_QJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v41_QZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v41_QpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v41_Q5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v41_RJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v41_RZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v41YOZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v41YOpbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v41YO5bBEe6kGvyIGLhuGQ" points="[-3, 0, 0, 60]$[-3, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v42mUJbBEe6kGvyIGLhuGQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v42mUZbBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v42mUpbBEe6kGvyIGLhuGQ" type="4001" element="_v3AzRJbBEe6kGvyIGLhuGQ" source="_v3pFYJbBEe6kGvyIGLhuGQ" target="_v3mCEJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v42mVpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v42mV5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v42mWJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v42mWZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v42mWpbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v42mW5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v42mU5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v42mVJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v42mVZbBEe6kGvyIGLhuGQ" points="[-3, 0, -624, 60]$[621, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v43NYJbBEe6kGvyIGLhuGQ" id="(0.5050505050505051,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v43NYZbBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v43NYpbBEe6kGvyIGLhuGQ" type="4001" element="_v3BaUJbBEe6kGvyIGLhuGQ" source="_v3sIsJbBEe6kGvyIGLhuGQ" target="_v3mCEJbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v43NZpbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v43NZ5bBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v43NaJbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v43NaZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v43NapbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v43Na5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v43NY5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v43NZJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v43NZZbBEe6kGvyIGLhuGQ" points="[-2, 0, 0, 60]$[-2, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v43NbJbBEe6kGvyIGLhuGQ" id="(0.5054945054945055,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v43NbZbBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v43NbpbBEe6kGvyIGLhuGQ" type="4001" element="_v3CBYpbBEe6kGvyIGLhuGQ" source="_v3sIt5bBEe6kGvyIGLhuGQ" target="_v3mpIpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v430cJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v430cZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v430cpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v430c5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v430dJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v430dZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v43Nb5bBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v43NcJbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v43NcZbBEe6kGvyIGLhuGQ" points="[-2, 0, 0, 60]$[-2, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v430dpbBEe6kGvyIGLhuGQ" id="(0.504556667821974,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v430d5bBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_v430eJbBEe6kGvyIGLhuGQ" type="4001" element="_v3CBZ5bBEe6kGvyIGLhuGQ" source="_v3sIt5bBEe6kGvyIGLhuGQ" target="_v3nQMpbBEe6kGvyIGLhuGQ">
+          <children xmi:type="notation:Node" xmi:id="_v44bgJbBEe6kGvyIGLhuGQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v44bgZbBEe6kGvyIGLhuGQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v44bgpbBEe6kGvyIGLhuGQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v44bg5bBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v44bhJbBEe6kGvyIGLhuGQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v44bhZbBEe6kGvyIGLhuGQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_v430eZbBEe6kGvyIGLhuGQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_v430epbBEe6kGvyIGLhuGQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v430e5bBEe6kGvyIGLhuGQ" points="[-2, 0, -160, 60]$[158, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v44bhpbBEe6kGvyIGLhuGQ" id="(0.504556667821974,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v44bh5bBEe6kGvyIGLhuGQ" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_v3DPgJbBEe6kGvyIGLhuGQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_v3D2kJbBEe6kGvyIGLhuGQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_v1l28JbBEe6kGvyIGLhuGQ" name="John" incomingEdges="_v28h2ZbBEe6kGvyIGLhuGQ _v29I6ZbBEe6kGvyIGLhuGQ _v29v8pbBEe6kGvyIGLhuGQ _v2_lIpbBEe6kGvyIGLhuGQ _v3AMMpbBEe6kGvyIGLhuGQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="timetable:Teacher" href="test.timetable#//@teacher.0"/>
+      <semanticElements xmi:type="timetable:Teacher" href="test.timetable#//@teacher.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_v1-RcJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" labelPosition="node" width="10" height="5" color="0,0,0">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_v2M68JbBEe6kGvyIGLhuGQ" name="Maria" incomingEdges="_v29I5JbBEe6kGvyIGLhuGQ _v29v95bBEe6kGvyIGLhuGQ _v2-XApbBEe6kGvyIGLhuGQ _v2_lJ5bBEe6kGvyIGLhuGQ _v3AzRJbBEe6kGvyIGLhuGQ _v3BaUJbBEe6kGvyIGLhuGQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="timetable:Teacher" href="test.timetable#//@teacher.1"/>
+      <semanticElements xmi:type="timetable:Teacher" href="test.timetable#//@teacher.1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_v2M68ZbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" labelPosition="node" width="10" height="5" color="0,0,0">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_v2M685bBEe6kGvyIGLhuGQ" name="Alex" incomingEdges="_v2-XB5bBEe6kGvyIGLhuGQ _v2--EJbBEe6kGvyIGLhuGQ _v2--GpbBEe6kGvyIGLhuGQ _v2_lLJbBEe6kGvyIGLhuGQ _v3CBYpbBEe6kGvyIGLhuGQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="timetable:Teacher" href="test.timetable#//@teacher.2"/>
+      <semanticElements xmi:type="timetable:Teacher" href="test.timetable#//@teacher.2"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_v2NiAJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" labelPosition="node" width="10" height="5" color="0,0,0">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_v2NiApbBEe6kGvyIGLhuGQ" name="Elisabeth" incomingEdges="_v2--FZbBEe6kGvyIGLhuGQ _v3CBZ5bBEe6kGvyIGLhuGQ" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="timetable:Teacher" href="test.timetable#//@teacher.3"/>
+      <semanticElements xmi:type="timetable:Teacher" href="test.timetable#//@teacher.3"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_v2NiA5bBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" labelPosition="node" width="10" height="5" color="0,0,0">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2P-QJbBEe6kGvyIGLhuGQ" name="Artificial Intelligence" outgoingEdges="_v2_lIpbBEe6kGvyIGLhuGQ _v3AMMpbBEe6kGvyIGLhuGQ _v3AzRJbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.0"/>
+      <semanticElements xmi:type="timetable:Course" href="test.timetable#//@course.0"/>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2RMYJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="0,0,0">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2TBkJbBEe6kGvyIGLhuGQ" name="Timetable">
+        <target xmi:type="timetable:CourseTimetable" href="test.timetable#//@course.0/@coursetimetable"/>
+        <semanticElements xmi:type="timetable:CourseTimetable" href="test.timetable#//@course.0/@coursetimetable"/>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2TooJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="69,69,69">
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2UPsJbBEe6kGvyIGLhuGQ" name="1">
+          <target xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.0"/>
+          <semanticElements xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.0"/>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2UPsZbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="136,136,136">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2Vd0pbBEe6kGvyIGLhuGQ" name="Monday" outgoingEdges="_v2zX4JbBEe6kGvyIGLhuGQ _v28h2ZbBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.0/@slot.0"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.0/@slot.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2WE4ZbBEe6kGvyIGLhuGQ" name="Lecture" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.0/@slot.0/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.0/@slot.0/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2WE4pbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2Vd05bBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2UPs5bBEe6kGvyIGLhuGQ" name="2">
+          <target xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.1"/>
+          <semanticElements xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.1"/>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2UPtJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="136,136,136">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2XTAJbBEe6kGvyIGLhuGQ" name="Tuesday" outgoingEdges="_v243cJbBEe6kGvyIGLhuGQ _v29I5JbBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.1/@slot.0"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.1/@slot.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2YhIJbBEe6kGvyIGLhuGQ" name="Exercise" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.1/@slot.0/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.1/@slot.0/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2ZIMJbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2X6EJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2U2wZbBEe6kGvyIGLhuGQ" name="6">
+          <target xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.2"/>
+          <semanticElements xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.2"/>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2U2wpbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="136,136,136">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2ZvQJbBEe6kGvyIGLhuGQ" name="Monday" outgoingEdges="_v25egpbBEe6kGvyIGLhuGQ _v29I6ZbBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.2/@slot.0"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.2/@slot.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2a9YJbBEe6kGvyIGLhuGQ" name="Lecture" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.2/@slot.0/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.2/@slot.0/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2a9YZbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2aWUJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2U2xJbBEe6kGvyIGLhuGQ" name="11">
+          <target xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.3"/>
+          <semanticElements xmi:type="timetable:Week" href="test.timetable#//@course.0/@coursetimetable/@week.3"/>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2Vd0JbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="136,136,136">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2cykJbBEe6kGvyIGLhuGQ" name="Monday" outgoingEdges="_v26soJbBEe6kGvyIGLhuGQ _v29v8pbBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.3/@slot.0"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.3/@slot.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2eAsJbBEe6kGvyIGLhuGQ" name="Lecture" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.3/@slot.0/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.0/@coursetimetable/@week.3/@slot.0/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2eAsZbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2dZoJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2RzcZbBEe6kGvyIGLhuGQ" name="Programming" outgoingEdges="_v2_lJ5bBEe6kGvyIGLhuGQ _v3BaUJbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.1"/>
+      <semanticElements xmi:type="timetable:Course" href="test.timetable#//@course.1"/>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2RzcpbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="0,0,0">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2enwJbBEe6kGvyIGLhuGQ" name="Timetable">
+        <target xmi:type="timetable:CourseTimetable" href="test.timetable#//@course.1/@coursetimetable"/>
+        <semanticElements xmi:type="timetable:CourseTimetable" href="test.timetable#//@course.1/@coursetimetable"/>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2enwZbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="69,69,69">
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2fO0ZbBEe6kGvyIGLhuGQ" name="1">
+          <target xmi:type="timetable:Week" href="test.timetable#//@course.1/@coursetimetable/@week.0"/>
+          <semanticElements xmi:type="timetable:Week" href="test.timetable#//@course.1/@coursetimetable/@week.0"/>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2fO0pbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="136,136,136">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2f14ZbBEe6kGvyIGLhuGQ" name="Monday" outgoingEdges="_v27TspbBEe6kGvyIGLhuGQ _v29v95bBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.0"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2hEAJbBEe6kGvyIGLhuGQ" name="Lecture" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.0/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.0/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2hEAZbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2f14pbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2gc8ZbBEe6kGvyIGLhuGQ" name="Wednesday" outgoingEdges="_v276wJbBEe6kGvyIGLhuGQ _v2-XApbBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.1"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.1"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2hrEJbBEe6kGvyIGLhuGQ" name="Exercise" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.1/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.1/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2iSIJbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2gc8pbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2SagZbBEe6kGvyIGLhuGQ" name="Big Data" outgoingEdges="_v2_lLJbBEe6kGvyIGLhuGQ _v3CBYpbBEe6kGvyIGLhuGQ _v3CBZ5bBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.2"/>
+      <semanticElements xmi:type="timetable:Course" href="test.timetable#//@course.2"/>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2SagpbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="0,0,0">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2i5MJbBEe6kGvyIGLhuGQ" name="Timetable">
+        <target xmi:type="timetable:CourseTimetable" href="test.timetable#//@course.2/@coursetimetable"/>
+        <semanticElements xmi:type="timetable:CourseTimetable" href="test.timetable#//@course.2/@coursetimetable"/>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2jgQJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="69,69,69">
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2kuYJbBEe6kGvyIGLhuGQ" name="1">
+          <target xmi:type="timetable:Week" href="test.timetable#//@course.2/@coursetimetable/@week.0"/>
+          <semanticElements xmi:type="timetable:Week" href="test.timetable#//@course.2/@coursetimetable/@week.0"/>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2lVcJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="136,136,136">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2nKoZbBEe6kGvyIGLhuGQ" name="Wednesday" outgoingEdges="_v276xZbBEe6kGvyIGLhuGQ _v2-XB5bBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.0"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2pm4JbBEe6kGvyIGLhuGQ" name="Lecture" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.0/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.0/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2pm4ZbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2nKopbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2oYwZbBEe6kGvyIGLhuGQ" name="Friday" outgoingEdges="_v276ypbBEe6kGvyIGLhuGQ _v2--EJbBEe6kGvyIGLhuGQ _v2--FZbBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.1"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.1"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2qN8JbBEe6kGvyIGLhuGQ" name="Lab" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.1/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.1/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2qN8ZbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2oYwpbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2mjkJbBEe6kGvyIGLhuGQ" name="2">
+          <target xmi:type="timetable:Week" href="test.timetable#//@course.2/@coursetimetable/@week.1"/>
+          <semanticElements xmi:type="timetable:Week" href="test.timetable#//@course.2/@coursetimetable/@week.1"/>
+          <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2mjkZbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="136,136,136">
+            <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2qN85bBEe6kGvyIGLhuGQ" name="Tuesday" outgoingEdges="_v28h1JbBEe6kGvyIGLhuGQ _v2--GpbBEe6kGvyIGLhuGQ">
+            <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.1/@slot.0"/>
+            <semanticElements xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.1/@slot.0"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" uid="_v2q1AZbBEe6kGvyIGLhuGQ" name="Supervision" width="3" height="3" resizeKind="NSEW">
+              <target xmi:type="timetable:Activity" href="test.timetable#//@course.2/@coursetimetable/@week.1/@slot.0/@activity"/>
+              <semanticElements xmi:type="timetable:Activity" href="test.timetable#//@course.2/@coursetimetable/@week.1/@slot.0/@activity"/>
+              <ownedStyle xmi:type="diagram:Square" uid="_v2q1ApbBEe6kGvyIGLhuGQ" labelSize="12" labelPosition="node" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']"/>
+            </ownedBorderedNodes>
+            <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2qN9JbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1">
+              <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2rcEJbBEe6kGvyIGLhuGQ" name="Trondheim">
+      <target xmi:type="timetable:Campus" href="test.timetable#//@campus.0"/>
+      <semanticElements xmi:type="timetable:Campus" href="test.timetable#//@campus.0"/>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2rcEZbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="0,0,0">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_v2rcE5bBEe6kGvyIGLhuGQ" name="Elektro">
+        <target xmi:type="timetable:Building" href="test.timetable#//@campus.0/@building.0"/>
+        <semanticElements xmi:type="timetable:Building" href="test.timetable#//@campus.0/@building.0"/>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_v2rcFJbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="69,69,69">
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_v2sDIZbBEe6kGvyIGLhuGQ" name="E01" incomingEdges="_v25egpbBEe6kGvyIGLhuGQ _v26soJbBEe6kGvyIGLhuGQ _v276ypbBEe6kGvyIGLhuGQ _v28h1JbBEe6kGvyIGLhuGQ" width="8" height="4" resizeKind="NSEW">
+          <target xmi:type="timetable:Room" href="test.timetable#//@campus.0/@building.0/@room.0"/>
+          <semanticElements xmi:type="timetable:Room" href="test.timetable#//@campus.0/@building.0/@room.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_v2sDIpbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" labelPosition="node" width="8" height="4">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_v2sqMZbBEe6kGvyIGLhuGQ" name="E02" incomingEdges="_v243cJbBEe6kGvyIGLhuGQ _v27TspbBEe6kGvyIGLhuGQ _v276xZbBEe6kGvyIGLhuGQ" width="8" height="4" resizeKind="NSEW">
+          <target xmi:type="timetable:Room" href="test.timetable#//@campus.0/@building.0/@room.1"/>
+          <semanticElements xmi:type="timetable:Room" href="test.timetable#//@campus.0/@building.0/@room.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_v2sqMpbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" labelPosition="node" width="8" height="4">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_v2tRQJbBEe6kGvyIGLhuGQ" name="E03" incomingEdges="_v2zX4JbBEe6kGvyIGLhuGQ _v276wJbBEe6kGvyIGLhuGQ" width="8" height="4" resizeKind="NSEW">
+          <target xmi:type="timetable:Room" href="test.timetable#//@campus.0/@building.0/@room.2"/>
+          <semanticElements xmi:type="timetable:Room" href="test.timetable#//@campus.0/@building.0/@room.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_v2tRQZbBEe6kGvyIGLhuGQ" labelSize="12" labelColor="255,255,255" labelPosition="node" width="8" height="4">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2zX4JbBEe6kGvyIGLhuGQ" sourceNode="_v2Vd0pbBEe6kGvyIGLhuGQ" targetNode="_v2tRQJbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.0/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v22bMJbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v23CQJbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v243cJbBEe6kGvyIGLhuGQ" sourceNode="_v2XTAJbBEe6kGvyIGLhuGQ" targetNode="_v2sqMZbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.1/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v243cZbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v243cpbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v25egpbBEe6kGvyIGLhuGQ" sourceNode="_v2ZvQJbBEe6kGvyIGLhuGQ" targetNode="_v2sDIZbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.2/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v25eg5bBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v25ehJbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v26soJbBEe6kGvyIGLhuGQ" sourceNode="_v2cykJbBEe6kGvyIGLhuGQ" targetNode="_v2sDIZbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.3/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v26soZbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v26sopbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v27TspbBEe6kGvyIGLhuGQ" sourceNode="_v2f14ZbBEe6kGvyIGLhuGQ" targetNode="_v2sqMZbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v27Ts5bBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v27TtJbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v276wJbBEe6kGvyIGLhuGQ" sourceNode="_v2gc8ZbBEe6kGvyIGLhuGQ" targetNode="_v2tRQJbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v276wZbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v276wpbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v276xZbBEe6kGvyIGLhuGQ" sourceNode="_v2nKoZbBEe6kGvyIGLhuGQ" targetNode="_v2sqMZbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v276xpbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v276x5bBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v276ypbBEe6kGvyIGLhuGQ" sourceNode="_v2oYwZbBEe6kGvyIGLhuGQ" targetNode="_v2sDIZbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v28h0JbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v28h0ZbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v28h1JbBEe6kGvyIGLhuGQ" sourceNode="_v2qN85bBEe6kGvyIGLhuGQ" targetNode="_v2sDIZbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.1/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v28h1ZbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v28h1pbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v28h2ZbBEe6kGvyIGLhuGQ" sourceNode="_v2Vd0pbBEe6kGvyIGLhuGQ" targetNode="_v1l28JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.0/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v29I4JbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v29I4ZbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v29I5JbBEe6kGvyIGLhuGQ" sourceNode="_v2XTAJbBEe6kGvyIGLhuGQ" targetNode="_v2M68JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.1/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v29I5ZbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v29I5pbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v29I6ZbBEe6kGvyIGLhuGQ" sourceNode="_v2ZvQJbBEe6kGvyIGLhuGQ" targetNode="_v1l28JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.2/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v29I6pbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v29I65bBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v29v8pbBEe6kGvyIGLhuGQ" sourceNode="_v2cykJbBEe6kGvyIGLhuGQ" targetNode="_v1l28JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.0/@coursetimetable/@week.3/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v29v85bBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v29v9JbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v29v95bBEe6kGvyIGLhuGQ" sourceNode="_v2f14ZbBEe6kGvyIGLhuGQ" targetNode="_v2M68JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v29v-JbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v29v-ZbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2-XApbBEe6kGvyIGLhuGQ" sourceNode="_v2gc8ZbBEe6kGvyIGLhuGQ" targetNode="_v2M68JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.1/@coursetimetable/@week.0/@slot.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2-XA5bBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2-XBJbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2-XB5bBEe6kGvyIGLhuGQ" sourceNode="_v2nKoZbBEe6kGvyIGLhuGQ" targetNode="_v2M685bBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2-XCJbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2-XCZbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2--EJbBEe6kGvyIGLhuGQ" sourceNode="_v2oYwZbBEe6kGvyIGLhuGQ" targetNode="_v2M685bBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2--EZbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2--EpbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2--FZbBEe6kGvyIGLhuGQ" sourceNode="_v2oYwZbBEe6kGvyIGLhuGQ" targetNode="_v2NiApbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.0/@slot.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2--FpbBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2--F5bBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2--GpbBEe6kGvyIGLhuGQ" sourceNode="_v2qN85bBEe6kGvyIGLhuGQ" targetNode="_v2M685bBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Slot" href="test.timetable#//@course.2/@coursetimetable/@week.1/@slot.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2--G5bBEe6kGvyIGLhuGQ" lineStyle="dash" sourceArrow="InputArrow" size="2" strokeColor="204,242,166">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2--HJbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2_lIpbBEe6kGvyIGLhuGQ" sourceNode="_v2P-QJbBEe6kGvyIGLhuGQ" targetNode="_v1l28JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2_lI5bBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="246,139,139">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Coordinator']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2_lJJbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Coordinator']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2_lJ5bBEe6kGvyIGLhuGQ" sourceNode="_v2RzcZbBEe6kGvyIGLhuGQ" targetNode="_v2M68JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2_lKJbBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="246,139,139">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Coordinator']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2_lKZbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Coordinator']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2_lLJbBEe6kGvyIGLhuGQ" sourceNode="_v2SagZbBEe6kGvyIGLhuGQ" targetNode="_v2M685bBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2_lLZbBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="246,139,139">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Coordinator']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2_lLpbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Coordinator']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v3AMMpbBEe6kGvyIGLhuGQ" sourceNode="_v2P-QJbBEe6kGvyIGLhuGQ" targetNode="_v1l28JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v3AzQJbBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="253,206,137">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v3AzQZbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v3AzRJbBEe6kGvyIGLhuGQ" sourceNode="_v2P-QJbBEe6kGvyIGLhuGQ" targetNode="_v2M68JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v3AzRZbBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="253,206,137">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v3AzRpbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v3BaUJbBEe6kGvyIGLhuGQ" sourceNode="_v2RzcZbBEe6kGvyIGLhuGQ" targetNode="_v2M68JbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v3BaUZbBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="253,206,137">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v3BaUpbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v3CBYpbBEe6kGvyIGLhuGQ" sourceNode="_v2SagZbBEe6kGvyIGLhuGQ" targetNode="_v2M685bBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v3CBY5bBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="253,206,137">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v3CBZJbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v3CBZ5bBEe6kGvyIGLhuGQ" sourceNode="_v2SagZbBEe6kGvyIGLhuGQ" targetNode="_v2NiApbBEe6kGvyIGLhuGQ">
+      <target xmi:type="timetable:Course" href="test.timetable#//@course.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v3CBaJbBEe6kGvyIGLhuGQ" lineStyle="dash" size="2" strokeColor="253,206,137">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v3CBaZbBEe6kGvyIGLhuGQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_v0TdgJbBEe6kGvyIGLhuGQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/no.ntnu.tdt4250.group13.timetable.diagram.editor/description/editor.odesign#//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer"/>
+    <target xmi:type="timetable:University" href="test.timetable#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

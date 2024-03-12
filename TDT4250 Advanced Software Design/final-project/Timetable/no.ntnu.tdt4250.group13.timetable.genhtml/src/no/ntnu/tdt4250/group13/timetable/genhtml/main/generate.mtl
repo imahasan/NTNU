@@ -1,0 +1,147 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.example.org/timetable')]
+
+
+[template public generateCode(university : University)]
+[comment @main/]
+[comment]generation of the menu[/comment]
+[file (university.name + '.html', false, 'UTF-8')]
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel='stylesheet' href='main.css'>
+	</head>
+	<body>
+		<h1>Courses</h1>
+		[for (c : Course | university.course)]
+		<a href='[c.name/].html'>[c.name/]</a>
+[c.name.generateTimetable(Slot.allInstances()->select(course = c))/]
+		[/for]
+		<a href='courses.html'>See also the timetable for multiple courses</a>
+[university.generateCoursesTimetable()/]
+		<h1>Rooms</h1>
+		[for (campus : Campus | university.campus)]
+		[for (building : Building | campus.building)]
+		[for (room : Room | building.room)]
+		<a href='[room.name/].html'>[room.name/]</a>
+[room.name.generateTimetable(room.slot)/]
+		[/for]
+		[/for]
+		[/for]
+		<h1>Teachers</h1>
+		[for (teacher : Teacher | university.teacher)]
+		<a href='[teacher.name/].html'>[teacher.name/]</a>
+[teacher.name.generateTimetable(teacher.slot)/]
+		[/for]
+	</body>
+</html>
+[/file]
+[/template]
+
+[template public generateCoursesTimetable(university : University)]
+[comment]generation of the timetable for multiple courses[/comment]
+[file ('courses.html', false, 'UTF-8')]
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel='stylesheet' href='courses_timetable.css'>
+		<script src='courses_timetable.js' defer></script>
+	</head>
+	<body>
+		<h1>Courses timetable</h1>
+		[university.generateWeeksSelector()/]
+		<div>
+			<span>Select course(s):</span>
+			[for (course : Course | Course.allInstances())]
+			<input type='checkbox' name='[course.name/]'><label for='[course.name/]'>[course.name/]</label>
+			[/for]
+		</div>
+		<table>
+			[university.generateFirstLine()/]
+			[for (hour : Integer | Sequence{7..19})]
+			<tr>
+				<td>[hour/]:00</td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			[/for]
+		</table>
+		[for (course : Course | Course.allInstances())]
+		<div id='[course.name/]'>
+			[for (week : Week | course.coursetimetable.week)]
+			<div name='[week.number/]'>
+				[for (slot : Slot | week.slot)]
+					<div day='[slot.day.toString()/]'
+						startTime='[slot.startTime/]'
+						endTime='[slot.endTime/]'
+						room='[slot.room.name/]'
+						activity=[slot.activity.type.toString()/]
+						teacher=[slot.lecturer.name/]></div>
+				[/for]
+			</div>
+			[/for]
+		</div>
+		[/for]
+	</body>
+</html>
+[/file]
+[/template]
+
+[template public generateTimetable(name : String, slots : Set(Slot))]
+[comment]generation of the webpage for each course, each room, and each teacher[/comment]
+[file (name + '.html', false, 'UTF-8')]
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel='stylesheet' href='timetable.css'>
+		<script src='weeks.js' defer></script>
+	</head>
+	<body>
+		<h1>[name/]</h1>
+		[name.generateWeeksSelector()/]
+		[for (week : Integer | Sequence{1..52})]
+		<table class='[week/]' hidden>
+			[name.generateFirstLine()/]
+			[for (hour : Integer | Sequence{7..19})]
+			<tr>
+				<td>[hour/]:00</td>
+				[for (day : String | Sequence{'Monday','Tuesday','Wednesday','Thursday','Friday'})]
+				<td[for (slot : Slot | slots)][slot.generateSlotClass(week, day, hour)/][/for]>
+				[for (slot : Slot | slots)][slot.generateSlotLabel(week, day, hour)/][/for]</td>
+				[/for]
+			</tr>
+			[/for]
+		</table>
+		[/for]
+	</body>
+</html>
+[/file]
+[/template]
+
+[template public generateSlotClass(slot : Slot, week : Integer, day : String, hour : Integer)]
+[if ((slot.week = week) and (slot.day.toString() = day) and (slot.startTime <= hour) and (hour < slot.endTime))]
+ class='slot'[/if]
+[/template]
+
+[template public generateSlotLabel(slot : Slot, week : Integer, day : String, hour : Integer)]
+[if ((slot.week = week) and (slot.day.toString() = day) and (slot.startTime = hour))]
+[slot.startTime/]-[slot.endTime/]: [slot.course.name/] - [slot.activity.type.toString()/] (<a href="[slot.room.mazemapLink/]">[slot.room.name/]</a>,[for (l : Teacher | slot.lecturer)] [l.name/][/for])
+[/if]
+[/template]
+
+[template public generateWeeksSelector(any : OclAny)]
+<span>Select a week:</span>
+<select>
+	<option>Select a week</option>
+	[for (week : Integer | Sequence{1..52})]
+	<option>[week/]</option>
+	[/for]
+</select>
+[/template]
+
+[template public generateFirstLine(any : OclAny)]
+<tr>
+	<th></th>
+	[for (day : String | Sequence{'Monday','Tuesday','Wednesday','Thursday','Friday'})]
+	<th>[day/]</th>
+	[/for]
+</tr>
+[/template]

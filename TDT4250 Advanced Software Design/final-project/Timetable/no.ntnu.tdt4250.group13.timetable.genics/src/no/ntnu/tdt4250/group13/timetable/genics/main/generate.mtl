@@ -1,0 +1,70 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.example.org/timetable')]
+
+
+[template public generateCode(university : University)]
+[comment @main/]
+[comment]generation of the menu[/comment]
+[file (university.name + '.ics', false, 'UTF-8')]
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TDT4250 NTNU//Group13 Exemple//EN
+X-WR-TIMEZONE:Europe/Paris
+[for (course : Course | university.course)]
+[for (week : Week | course.coursetimetable.week)]
+[for (slot : Slot | week.slot)]
+[slot.generateICalendarEvents()/]
+[/for][/for][/for]END:VCALENDAR
+[/file]
+
+[for (course : Course | university.course)]
+[file (course.name + '.ics', false, 'UTF-8')]
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TDT4250 NTNU//Group13 Exemple//EN
+X-WR-TIMEZONE:Europe/Paris
+[for (week : Week | course.coursetimetable.week)]
+[for (slot : Slot | week.slot)]
+[slot.generateICalendarEvents()/]
+[/for][/for]END:VCALENDAR[/file][/for]
+
+
+[for (teacher : Teacher | university.teacher)]
+[file (teacher.name + '.ics', false, 'UTF-8')]
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TDT4250 NTNU//Group13 Exemple//EN
+X-WR-TIMEZONE:Europe/Paris
+[for (slot : Slot | teacher.slot)]
+[slot.generateICalendarEvents()/]
+[/for]END:VCALENDAR[/file][/for]
+
+[for (campus : Campus | university.campus)]
+[for (building : Building | campus.building)]
+[for (room : Room | building.room)]
+[file (campus.name + room.name+'.ics', false, 'UTF-8')]
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TDT4250 NTNU//Group13 Exemple//EN
+X-WR-TIMEZONE:Europe/Paris
+[for (slot : Slot | room.slot)]
+[slot.generateICalendarEvents()/]
+[/for]END:VCALENDAR[/file]
+[/for]
+[/for]
+[/for]
+[/template]
+[template public generateICalendarEvents(slot : Slot)]
+BEGIN:VEVENT
+DTSTART:[slot.date/]T[formatTwoDigits(slot.startTime.toString())/]0000
+DTEND:[slot.date/]T[formatTwoDigits(slot.endTime.toString())/]0000
+SUMMARY:[slot.course.name/] - [slot.activity.type.toString()/]
+LOCATION:[slot.room.name/]
+DESCRIPTION:Teacher - [slot.lecturer.name/]
+END:VEVENT
+[/template]
+
+[template public formatTwoDigits(value : String)]
+[if (value.size() = 1)]
+0[value/][else][value/][/if]
+[/template]
