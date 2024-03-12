@@ -1,0 +1,20 @@
+[comment encoding = UTF-8 /]
+[comment][module utils('platform:/plugin/tdt4250.studyprogramme.model/model/studyprogramme.ecore', 'http://www.eclipse.org/emf/2002/Ecore')/][/comment]
+
+[module generate('http://www.eclipse.org/emf/2002/Ecore')/]
+
+[query public getSeason(fromSeason : Season, term : Integer) : Season =
+	invoke('tdt4250.studyprogramme.html.common.Utils', 'getSeason(tdt4250.studyprogramme.Season, int)', Sequence{fromSeason, term})
+/]
+
+[query public termToYearNumber( term : Integer) : Integer =
+	invoke('tdt4250.studyprogramme.html.common.Utils', 'termToYearNumber(int)', Sequence{term})
+/]
+
+[query public yearToTerm( term : Integer) : OrderedSet(Integer) =
+	invoke('tdt4250.studyprogramme.html.common.Utils', 'yearToTerm(int)', Sequence{term})
+/]
+
+[query public getNameID( eObject : EObject) : String =
+	invoke('tdt4250.studyprogramme.html.common.Utils', 'getNameID(org.eclipse.emf.ecore.EObject)', Sequence{eObject})
+/]

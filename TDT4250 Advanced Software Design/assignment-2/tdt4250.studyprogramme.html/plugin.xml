@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated studyprogramme -->
+      <package
+            uri="platform:/plugin/tdt4250.studyprogramme.html.model/model/studyprogramme.ecore"
+            class="tdt4250.studyprogramme.html.StudyprogrammePackage"
+            genModel="model/studyprogramme.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated studyprogramme -->
+      <parser
+            type="studyprogramme"
+            class="tdt4250.studyprogramme.html.util.StudyprogrammeResourceFactoryImpl"/>
+   </extension>
+</plugin>
