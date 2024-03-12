@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/tdt4250.studyprogramme.model/src" editDirectory="/tdt4250.studyprogramme.model.edit/src"
+    editorDirectory="/tdt4250.studyprogramme.model.editor/src" modelPluginID="tdt4250.studyprogramme.model"
+    modelName="Studyprogramme" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    testsDirectory="/tdt4250.studyprogramme.model.tests/src" testSuiteClass="tdt4250.studyprogramme.tests.StudyprogrammeAllTests"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    editPluginID="tdt4250.studyprogramme.model.edit" editorPluginID="tdt4250.studyprogramme.model.editor"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>studyprogramme.ecore</foreignModel>
+  <genPackages prefix="Studyprogramme" basePackage="tdt4250" resource="XMI" disposableProviderFactory="true"
+      ecorePackage="studyprogramme.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="studyprogramme.ecore#//CourseLevel">
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//CourseLevel/basicCourses"/>
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//CourseLevel/advancedCourses"/>
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//CourseLevel/postgraduateLevel"/>
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//CourseLevel/doctoralLevel"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="studyprogramme.ecore#//Season">
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//Season/spring"/>
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//Season/autumn"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="studyprogramme.ecore#//CourseStatus">
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//CourseStatus/mandatory"/>
+      <genEnumLiterals ecoreEnumLiteral="studyprogramme.ecore#//CourseStatus/elective"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="studyprogramme.ecore#//Code"/>
+    <genDataTypes ecoreDataType="studyprogramme.ecore#//Year"/>
+    <genClasses ecoreClass="studyprogramme.ecore#//UOD">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//UOD/programmes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//UOD/courses"/>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//Course">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//Course/courseCriterion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Course/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Course/credits"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Course/level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Course/code"/>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//Programme">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Programme/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Programme/code"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Programme/fullName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//Programme/academicYears"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Programme/length"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//Programme/specialisations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Programme/creditsRequirement"/>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//AcademicYear">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//AcademicYear/fromYear"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//AcademicYear/fromSeason"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//AcademicYear/courseCombinations"/>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//CourseCombination">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseCombination/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//CourseCombination/specialisation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseCombination/creditsRequirement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseCombination/fromTerm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//CourseCombination/courseCombinations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//CourseCombination/courseGroups"/>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//Specialisation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//Specialisation/specialisation"/>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//CourseGroup">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseGroup/fromTerm"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseGroup/toTerm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//CourseGroup/criteria"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseGroup/status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseGroup/requiredCredits"/>
+      <genOperations ecoreOperation="studyprogramme.ecore#//CourseGroup/getCourses"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="studyprogramme.ecore#//Criterion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//Criterion/criteria"/>
+      <genOperations ecoreOperation="studyprogramme.ecore#//Criterion/filterCourses">
+        <genParameters ecoreParameter="studyprogramme.ecore#//Criterion/filterCourses/courses"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//CourseCriterion">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference studyprogramme.ecore#//CourseCriterion/courses"/>
+      <genOperations ecoreOperation="studyprogramme.ecore#//CourseCriterion/filterCourses">
+        <genParameters ecoreParameter="studyprogramme.ecore#//CourseCriterion/filterCourses/courses"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="studyprogramme.ecore#//CourseLevelCriterion">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute studyprogramme.ecore#//CourseLevelCriterion/courseLevel"/>
+      <genOperations ecoreOperation="studyprogramme.ecore#//CourseLevelCriterion/filterCourses">
+        <genParameters ecoreParameter="studyprogramme.ecore#//CourseLevelCriterion/filterCourses/courses"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
