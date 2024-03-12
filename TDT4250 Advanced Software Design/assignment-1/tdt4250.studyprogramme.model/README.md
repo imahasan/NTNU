@@ -1,7 +1,7 @@
 # Assignment 1
 This is assiginment 1 for the course TDT4250. The task is to create a study programme model.
 
-In the `model` you will find the ecore model and the generator model. In the same folder, a dynamic instance of the [MIDT](https://www.ntnu.no/studier/midt) studyprogramme at NTNU is available. The `src/studyprogramme` folder contains all the generated code (including manual written code).
+In the `model` you will find the ecore model and the generator model. In the same folder, a dynamic instance of the [MIDT](https://www.ntnu.no/studier/midt) studyprogramme at NTNU is available. The `src/studyprogramme` folder contains all the generated code (including manual coding).
 
 ## Domain Model
 
