@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SchedulingAlgorithm
+Bundle-SymbolicName: no.ntnu.tdt4250.group13.scheduling_algorithm
+Bundle-Version: 1.0.0.qualifier
+Export-Package: no.ntnu.tdt4250.group13.scheduling_algorithm
+Require-Bundle: no.ntnu.tdt4250.group13.timetable;bundle-version="0.1.0",
+ no.ntnu.tdt4250.group13.scheduling_requirements;bundle-version="0.1.0",
+ org.eclipse.emf;bundle-version="2.9.0",
+ org.eclipse.emfcloud.emfjson-jackson;bundle-version="2.1.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.18.0"
+Automatic-Module-Name: no.ntnu.tdt4250.group13.scheduling.algorithm
+Bundle-RequiredExecutionEnvironment: JavaSE-17
