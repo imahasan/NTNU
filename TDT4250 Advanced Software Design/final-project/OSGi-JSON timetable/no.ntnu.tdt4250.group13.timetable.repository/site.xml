@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/no.ntnu.tdt4250.group13.timetable.feature.core_1.0.0.202312091913.jar" id="no.ntnu.tdt4250.group13.timetable.feature.core" version="1.0.0.202312091913"/>
+   <feature url="features/no.ntnu.tdt4250.group13.timetable.feature.diagram_1.0.0.202312091913.jar" id="no.ntnu.tdt4250.group13.timetable.feature.diagram" version="1.0.0.202312091913"/>
+</site>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="no.ntnu.tdt4250.group13.timetable.feature.diagram"
+      label="Diagram"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import feature="no.ntnu.tdt4250.group13.timetable.feature.core" version="1.0.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="no.ntnu.tdt4250.group13.timetable.genics"
+         version="0.0.0"/>
+
+   <plugin
+         id="no.ntnu.tdt4250.group13.timetable.diagram.editor"
+         version="0.0.0"/>
+
+   <plugin
+         id="no.ntnu.tdt4250.group13.timetable.uicontrols"
+         version="0.0.0"/>
+
+   <plugin
+         id="no.ntnu.tdt4250.group13.timetable.editor"
+         version="0.0.0"/>
+
+   <plugin
+         id="no.ntnu.tdt4250.group13.timetable.genhtml"
+         version="0.0.0"/>
+
+   <plugin
+         id="no.ntnu.tdt4250.group13.timetable.edit"
+         version="0.0.0"/>
+
+</feature>
