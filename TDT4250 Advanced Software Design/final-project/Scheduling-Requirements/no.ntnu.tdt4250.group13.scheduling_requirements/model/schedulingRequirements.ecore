@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="schedulingRequirements" nsURI="http://www.example.org/schedulingRequirements"
+    nsPrefix="schedulingRequirements">
+  <eClassifiers xsi:type="ecore:EClass" name="Course">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="code" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="schedulingrequirements"
+        lowerBound="1" eType="#//schedulingRequirements" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="coordinator" lowerBound="1"
+        eType="#//Teacher"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ActivityType">
+    <eLiterals name="LECTURE"/>
+    <eLiterals name="EXERCISE" value="1"/>
+    <eLiterals name="LAB" value="2"/>
+    <eLiterals name="SUPERVISION" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Teacher">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="schedulingRequirements">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="SenderMustBeCourseCoordinator"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="weeks" lowerBound="1" upperBound="52"
+        eType="#//Week" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sender" lowerBound="1"
+        eType="#//Teacher"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Room">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mazemapLink" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SlotRequirement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="ExpectedStudentsMustBeGreaterThanZero DurationMustBeGreaterThanZero"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requiredPersonal" upperBound="-1"
+        eType="#//Teacher"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRoom" eType="#//Room"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activityType" lowerBound="1"
+        eType="#//ActivityType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expectedStudents" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requiredSameDaySlots" upperBound="-1"
+        eType="#//SlotRequirement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Week">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="weekNumber" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="slotRequirements" lowerBound="1"
+        upperBound="-1" eType="#//SlotRequirement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="University">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="campi" lowerBound="1" upperBound="-1"
+        eType="#//Campus" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="course" lowerBound="1"
+        eType="#//Course" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="teachers" lowerBound="1"
+        upperBound="-1" eType="#//Teacher" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Campus">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="buildings" lowerBound="1"
+        upperBound="-1" eType="#//Building" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Building">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rooms" lowerBound="1" upperBound="-1"
+        eType="#//Room" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

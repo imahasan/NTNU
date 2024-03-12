@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/no.ntnu.tdt4250.group13.scheduling_requirements/src-gen"
+    creationIcons="false" editDirectory="/no.ntnu.tdt4250.group13.scheduling_requirements.edit/src-gen"
+    editorDirectory="/no.ntnu.tdt4250.group13.scheduling_requirements.editor/src-gen"
+    modelPluginID="no.ntnu.tdt4250.group13.scheduling_requirements" modelName="SchedulingRequirements"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="17.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>schedulingRequirements.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="SchedulingRequirements" basePackage="no.ntnu.tdt4250.group13.scheduling_requirements"
+      disposableProviderFactory="true" ecorePackage="schedulingRequirements.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="schedulingRequirements.ecore#//ActivityType">
+      <genEnumLiterals ecoreEnumLiteral="schedulingRequirements.ecore#//ActivityType/LECTURE"/>
+      <genEnumLiterals ecoreEnumLiteral="schedulingRequirements.ecore#//ActivityType/EXERCISE"/>
+      <genEnumLiterals ecoreEnumLiteral="schedulingRequirements.ecore#//ActivityType/LAB"/>
+      <genEnumLiterals ecoreEnumLiteral="schedulingRequirements.ecore#//ActivityType/SUPERVISION"/>
+    </genEnums>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//Course">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Course/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Course/code"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//Course/schedulingrequirements"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//Course/coordinator"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//Teacher">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Teacher/name"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//schedulingRequirements">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//schedulingRequirements/weeks"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//schedulingRequirements/sender"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//Room">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Room/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Room/mazemapLink"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//SlotRequirement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//SlotRequirement/requiredPersonal"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//SlotRequirement/requiredRoom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//SlotRequirement/activityType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//SlotRequirement/duration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//SlotRequirement/expectedStudents"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//SlotRequirement/requiredSameDaySlots"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//Week">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Week/weekNumber"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//Week/slotRequirements"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//University">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//University/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//University/campi"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//University/course"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//University/teachers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//University/year"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//Campus">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Campus/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//Campus/buildings"/>
+    </genClasses>
+    <genClasses ecoreClass="schedulingRequirements.ecore#//Building">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute schedulingRequirements.ecore#//Building/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference schedulingRequirements.ecore#//Building/rooms"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedulingRequirements:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:schedulingRequirements="http://www.example.org/schedulingRequirements" name="NTNU" year="2024">
+  <campi name="Trondheim">
+    <buildings name="Elektro">
+      <rooms name="E01" mazemapLink="linkE01"/>
+    </buildings>
+  </campi>
+  <course name="Advanced Software Design" code="tdt4250" coordinator="//@teachers.0">
+    <schedulingrequirements sender="//@teachers.0">
+      <weeks weekNumber="1">
+        <slotRequirements requiredPersonal="//@teachers.1 //@teachers.0" activityType="SUPERVISION" duration="9" expectedStudents="20"/>
+      </weeks>
+    </schedulingrequirements>
+  </course>
+  <teachers name="James"/>
+  <teachers name="John"/>
+</schedulingRequirements:University>
