@@ -1,0 +1,64 @@
+University NTNU {
+
+	year 2024
+
+	campus {
+		Campus Trondheim {
+			buildings {
+				Building Elektro {
+					rooms {
+						Room E01 {
+							mazemapLink linkE01
+						},
+						Room E02 {
+							mazemapLink linkE02
+						}
+					}
+				}
+			}
+		}
+	}
+
+	course Course Programming {
+		code TDT4578
+		coordinator John
+		schedulingrequirements SchedulingRequirements {
+			sender John
+			weeks {
+				Week {
+					weekNumber 1
+					slotRequirements {
+						SlotRequirement {
+							activityType LECTURE
+							duration 2
+							expectedStudents 32
+						}
+					}
+				},
+				Week {
+					weekNumber 2
+					slotRequirements {
+						SlotRequirement {
+							activityType LAB
+							duration 4
+							expectedStudents 18
+							requiredPersonal (Mary)
+						},
+						SlotRequirement {
+							activityType LECTURE
+							duration 2
+							expectedStudents 36
+							requiredRoom "Trondheim.Elektro.E01"
+						}
+					}
+				}
+			}
+		}
+	}
+
+	teachers {
+		Teacher Mary,
+		Teacher John
+	}
+
+}

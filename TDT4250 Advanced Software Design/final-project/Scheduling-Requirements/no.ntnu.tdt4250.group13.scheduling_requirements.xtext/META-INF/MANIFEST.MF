@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: no.ntnu.tdt4250.group13.scheduling_requirements.xtext
+Bundle-ManifestVersion: 2
+Bundle-Name: no.ntnu.tdt4250.group13.scheduling_requirements.xtext
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: no.ntnu.tdt4250.group13.scheduling_requirements.xtext; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: no.ntnu.tdt4250.group13.scheduling_requirements,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.16.0",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: no.ntnu.tdt4250.group13.scheduling_requirements.xtext,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.parser.antlr.internal,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.generator,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.parser.antlr,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.scoping,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.services,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.formatting2,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.serializer,
+ no.ntnu.tdt4250.group13.scheduling_requirements.xtext.validation
+Import-Package: org.apache.log4j
