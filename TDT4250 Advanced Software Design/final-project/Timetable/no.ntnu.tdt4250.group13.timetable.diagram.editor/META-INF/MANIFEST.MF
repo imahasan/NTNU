@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: no.ntnu.tdt4250.group13.timetable.diagram.editor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: no.ntnu.tdt4250.group13.timetable.diagram.editor.Activator
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.sirius,
+ org.eclipse.sirius.common.acceleo.aql,
+ no.ntnu.tdt4250.group13.timetable;bundle-version="0.1.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-Vendor: %providerName
+Automatic-Module-Name: no.ntnu.tdt4250.group13.timetable.diagram.editor

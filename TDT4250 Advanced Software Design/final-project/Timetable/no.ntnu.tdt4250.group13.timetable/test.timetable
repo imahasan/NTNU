@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timetable:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:timetable="http://www.example.org/timetable" name="NTNU">
+  <campus name="Trondheim">
+    <building name="Elektro">
+      <room name="E01" mazemapLink="linkE01" slot="//@course.2/@coursetimetable/@week.0/@slot.1 //@course.2/@coursetimetable/@week.1/@slot.0 //@course.0/@coursetimetable/@week.2/@slot.0 //@course.0/@coursetimetable/@week.3/@slot.0"/>
+      <room name="E02" mazemapLink="linkE02" slot="//@course.0/@coursetimetable/@week.1/@slot.0 //@course.1/@coursetimetable/@week.0/@slot.0 //@course.2/@coursetimetable/@week.0/@slot.0"/>
+      <room name="E03" mazemapLink="linkE03" slot="//@course.0/@coursetimetable/@week.0/@slot.0 //@course.1/@coursetimetable/@week.0/@slot.1"/>
+    </building>
+  </campus>
+  <course name="Artificial Intelligence" code="TDT4578" coordinator="//@teacher.0" lecturer="//@teacher.0 //@teacher.1">
+    <coursetimetable>
+      <week>
+        <slot room="//@campus.0/@building.0/@room.2" lecturer="//@teacher.0" startTime="12" endTime="14">
+          <activity/>
+        </slot>
+      </week>
+      <week number="2">
+        <slot day="Tuesday" room="//@campus.0/@building.0/@room.1" lecturer="//@teacher.1" startTime="8" endTime="10">
+          <activity type="Exercise"/>
+        </slot>
+      </week>
+      <week number="6">
+        <slot room="//@campus.0/@building.0/@room.0" lecturer="//@teacher.0" startTime="8" endTime="10">
+          <activity/>
+        </slot>
+      </week>
+      <week number="11">
+        <slot room="//@campus.0/@building.0/@room.0" lecturer="//@teacher.0" startTime="8" endTime="10">
+          <activity/>
+        </slot>
+      </week>
+    </coursetimetable>
+  </course>
+  <course name="Programming" code="TDT4156" coordinator="//@teacher.1" lecturer="//@teacher.1">
+    <coursetimetable>
+      <week>
+        <slot room="//@campus.0/@building.0/@room.1" lecturer="//@teacher.1" startTime="12" endTime="14">
+          <activity/>
+        </slot>
+        <slot day="Wednesday" room="//@campus.0/@building.0/@room.2" lecturer="//@teacher.1" startTime="16" endTime="18">
+          <activity type="Exercise"/>
+        </slot>
+      </week>
+    </coursetimetable>
+  </course>
+  <course name="Big Data" code="TDT4356" coordinator="//@teacher.2" lecturer="//@teacher.2 //@teacher.3">
+    <coursetimetable>
+      <week>
+        <slot day="Wednesday" room="//@campus.0/@building.0/@room.1" lecturer="//@teacher.2" startTime="10" endTime="11">
+          <activity/>
+        </slot>
+        <slot day="Friday" room="//@campus.0/@building.0/@room.0" lecturer="//@teacher.2 //@teacher.3" startTime="8" endTime="12">
+          <activity type="Lab"/>
+        </slot>
+      </week>
+      <week number="2">
+        <slot day="Tuesday" room="//@campus.0/@building.0/@room.0" lecturer="//@teacher.2" startTime="8" endTime="18">
+          <activity type="Supervision"/>
+        </slot>
+      </week>
+    </coursetimetable>
+  </course>
+  <teacher slot="//@course.0/@coursetimetable/@week.0/@slot.0 //@course.0/@coursetimetable/@week.2/@slot.0 //@course.0/@coursetimetable/@week.3/@slot.0" name="John"/>
+  <teacher slot="//@course.0/@coursetimetable/@week.1/@slot.0 //@course.1/@coursetimetable/@week.0/@slot.0 //@course.1/@coursetimetable/@week.0/@slot.1" name="Maria"/>
+  <teacher slot="//@course.2/@coursetimetable/@week.0/@slot.1 //@course.2/@coursetimetable/@week.0/@slot.0 //@course.2/@coursetimetable/@week.1/@slot.0" name="Alex"/>
+  <teacher slot="//@course.2/@coursetimetable/@week.0/@slot.1" name="Elisabeth"/>
+</timetable:University>

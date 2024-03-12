@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/no.ntnu.tdt4250.group13.timetable/src-gen" creationIcons="false"
+    editDirectory="/no.ntnu.tdt4250.group13.timetable.edit/src-gen" editorDirectory="/no.ntnu.tdt4250.group13.timetable.editor/src-gen"
+    modelPluginID="no.ntnu.tdt4250.group13.timetable" modelName="Timetable" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="17.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>timetable.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Timetable" basePackage="no.ntnu.tdt4250.group13" disposableProviderFactory="true"
+      ecorePackage="timetable.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="timetable.ecore#//ActivityEnum">
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//ActivityEnum/Lecture"/>
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//ActivityEnum/Exercise"/>
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//ActivityEnum/Lab"/>
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//ActivityEnum/Supervision"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="timetable.ecore#//DayEnum">
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//DayEnum/Monday"/>
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//DayEnum/Tuesday"/>
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//DayEnum/Wednesday"/>
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//DayEnum/Thurdsay"/>
+      <genEnumLiterals ecoreEnumLiteral="timetable.ecore#//DayEnum/Friday"/>
+    </genEnums>
+    <genClasses ecoreClass="timetable.ecore#//University">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//University/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//University/campus"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//University/course"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//University/teacher"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//University/year"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Course">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Course/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Course/code"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timetable.ecore#//Course/coordinator"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timetable.ecore#//Course/lecturer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//Course/coursetimetable"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Teacher">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timetable.ecore#//Teacher/slot"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Teacher/name"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Campus">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Campus/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//Campus/building"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Building">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Building/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//Building/room"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Room">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Room/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Room/mazemapLink"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timetable.ecore#//Room/slot"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Week">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Week/number"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//Week/slot"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Slot">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Slot/day"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timetable.ecore#//Slot/room"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timetable.ecore#//Slot/lecturer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//Slot/activity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Slot/startTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Slot/endTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Slot/week"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timetable.ecore#//Slot/course"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Slot/date"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//Activity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timetable.ecore#//Activity/type"/>
+    </genClasses>
+    <genClasses ecoreClass="timetable.ecore#//CourseTimetable">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timetable.ecore#//CourseTimetable/week"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

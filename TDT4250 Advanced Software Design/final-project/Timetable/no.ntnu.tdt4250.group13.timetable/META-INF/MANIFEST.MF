@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: no.ntnu.tdt4250.group13.timetable;singleton:=true
+Automatic-Module-Name: no.ntnu.tdt4250.group13.timetable
+Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: no.ntnu.tdt4250.group13.timetable,
+ no.ntnu.tdt4250.group13.timetable.impl,
+ no.ntnu.tdt4250.group13.timetable.util
+Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy

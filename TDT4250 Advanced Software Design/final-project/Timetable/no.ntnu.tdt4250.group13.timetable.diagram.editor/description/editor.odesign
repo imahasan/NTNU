@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="editor" version="12.0.0.2017041100">
+  <ownedViewpoints name="DiagramView">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="TimetableDiagram" initialisation="true" domainClass="timetable::University" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="TeacherNode" domainClass="timetable::Teacher">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Slot-Room" sourceMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']" targetMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']" targetFinderExpression="feature:room">
+          <style lineStyle="dash" sourceArrow="InputArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Slot-Teacher" sourceMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']" targetMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']" targetFinderExpression="feature:lecturer">
+          <style lineStyle="dash" sourceArrow="InputArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Course-Coordinator" sourceMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']" targetMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']" targetFinderExpression="feature:coordinator">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Course-Lecturer" sourceMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']" targetMapping="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']" targetFinderExpression="feature:lecturer">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="CourseNode" domainClass="timetable::Course">
+          <subContainerMappings name="CourseTimetableNode" semanticCandidatesExpression="feature:eAllContents" domainClass="timetable::CourseTimetable">
+            <subContainerMappings name="WeekNode" semanticCandidatesExpression="feature:eAllContents" domainClass="timetable::Week">
+              <subContainerMappings name="SlotNode" semanticCandidatesExpression="feature:eAllContents" domainClass="timetable::Slot">
+                <borderedNodeMappings name="ActivityNode" semanticCandidatesExpression="feature:eAllContents" domainClass="timetable::Activity">
+                  <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:type" labelPosition="node" resizeKind="NSEW">
+                    <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  </style>
+                </borderedNodeMappings>
+                <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:day">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+                </style>
+              </subContainerMappings>
+              <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:number">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Timetable">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="CampusNode" domainClass="timetable::Campus">
+          <subContainerMappings name="BuildingNode" semanticCandidatesExpression="feature:eAllContents" domainClass="timetable::Building">
+            <subNodeMappings name="RoomNode" semanticCandidatesExpression="feature:eAllContents" domainClass="timetable::Room">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="8" height="4">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Teacher Elements">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="TeacherCreation" nodeMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@nodeMappings[name='TeacherNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Teacher" referenceName="teacher"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Course Elements">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ActivityCreation" nodeMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']/@borderedNodeMappings[name='ActivityNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Activity" referenceName="activity"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="CourseCreation" containerMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Course" referenceName="course"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="CourseTimetableCreation" containerMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::CourseTimetable" referenceName="coursetimetable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="WeekCreation" containerMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Week" referenceName="week"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="SlotCreation" containerMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CourseNode']/@subContainerMappings[name='CourseTimetableNode']/@subContainerMappings[name='WeekNode']/@subContainerMappings[name='SlotNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Slot" referenceName="slot"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Room Elements">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="CampusCreation" containerMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Campus" referenceName="campus"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="BuildingCreation" containerMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Building" referenceName="building"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="RoomCreation" nodeMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@containerMappings[name='CampusNode']/@subContainerMappings[name='BuildingNode']/@subNodeMappings[name='RoomNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="timetable::Room" referenceName="room"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="References">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Slot-Room" edgeMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Room']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="room" valueExpression="var:target"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="slot" valueExpression="var:source"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Slot-Teacher" edgeMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Slot-Teacher']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="lecturer" valueExpression="var:target"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="slot" valueExpression="var:source"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Course-Coordinator" edgeMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Coordinator']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="coordinator" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Course-Lecturer" edgeMappings="//@ownedViewpoints[name='DiagramView']/@ownedRepresentations[name='TimetableDiagram']/@defaultLayer/@edgeMappings[name='Course-Lecturer']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="lecturer" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="no.ntnu.tdt4250.group13.timetable.diagram.editor.Services"/>
+  </ownedViewpoints>
+</description:Group>
