@@ -1,0 +1,32 @@
+-buildpath: \
+	osgi.annotation;version='7.0.0',\
+	osgi.core;version='7.0.0',\
+	osgi.cmpn;version='7.0.0',\
+	org.apache.felix.http.servlet-api;version='1.1.2',\
+	log4j,\
+	org.eclipse.osgi,\
+	org.eclipse.emf.ecore,\
+	org.eclipse.emf.common,\
+	org.eclipse.emf.common.source,\
+	org.eclipse.emf.common.ui,\
+	org.eclipse.emf.common.ui.source,\
+	org.eclipse.emf.ecore.xmi,\
+	org.json:json,\
+	org.eclipse.emfcloud.emfjson-jackson,\
+	org.eclipse.emfcloud.emfjson-jackson.source,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	com.fasterxml.jackson.core.jackson-annotations.source,\
+	com.fasterxml.jackson.core.jackson-core,\
+	com.fasterxml.jackson.core.jackson-core.source,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	com.fasterxml.jackson.core.jackson-databind.source
+
+-testpath: \
+	${junit},\
+	${mockito},\
+	${mockito-deps}
+
+javac.source: 17
+javac.target: 17
+
+Bundle-Version: 0.0.0.${tstamp}
