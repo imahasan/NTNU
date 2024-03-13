@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schemaFactory revisionNumber="39">
+    <schemaDefinition name="bikeTrip" group="Group140" loadOnStartup="false">
+        <activateIncrementalLoad>false</activateIncrementalLoad>
+        <useUnknownMembersInFacts>true</useUnknownMembersInFacts>
+        <autoCleanUpTableColumns>false</autoCleanUpTableColumns>
+        <useFactPartitioning>false</useFactPartitioning>
+        <memberPropertyConsistencyCheck>ACTIVE</memberPropertyConsistencyCheck>
+        <fileCSV directory="E:/1. NTNU Class in Norge/2. Spring 2023/TDT4300 - Data warehouse and data mining/Assignment/Assignment 1/data_bike" checkColumnSize="false" name="Bike trip" includeSynonyms="false" disableReadOnlyMode="false">
+            <csvDataTable csvseparator="," csvquotechar="&quot;" csvescape="\" csvstrictQuotes="false" csvignoreLeadingWhiteSpace="true" fileEncoding="UTF-8" tableName="stations.csv" rowLimit="-1" id="f11e4575-bb9e-40a5-9570-8402c6b72e86">
+                <column name="station_id" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="name" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="city" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="region" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="neighborhood" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="street" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="postcode" tableType="STRING" type="DOUBLE" selected="true" primaryKey="false"/>
+                <column name="latitude" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="longitude" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="location" tableType="STRING" type="DOUBLE" selected="true" primaryKey="false"/>
+                <column name="status" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <addRowNumber>false</addRowNumber>
+                <trimStrings>true</trimStrings>
+                <columnSeparator>,</columnSeparator>
+                <commentMarker>#</commentMarker>
+            </csvDataTable>
+            <csvDataTable csvseparator="," csvquotechar="&quot;" csvescape="\" csvstrictQuotes="false" csvignoreLeadingWhiteSpace="true" fileEncoding="UTF-8" tableName="trips.csv" rowLimit="-1" id="3dc59a7b-9ded-4487-a521-26d4453455ba">
+                <column name="trip_id" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="bike_id" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="start_station_id" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="end_station_id" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="start_station_name" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="end_station_name" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="year" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="month" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="start_time" tableType="STRING" type="DATETIME" selected="true" primaryKey="false"/>
+                <column name="checkout_time" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="duration_minutes" tableType="STRING" type="INTEGER" selected="true" primaryKey="false"/>
+                <column name="subscriber_type" tableType="STRING" type="STRING" selected="true" primaryKey="false"/>
+                <column name="trip_price" tableType="STRING" type="FLOAT" selected="true" primaryKey="false"/>
+                <addRowNumber>false</addRowNumber>
+                <stringDateConverter>yyyy-MM-dd_&amp;_yyyy-MM-dd hh:mm:ss</stringDateConverter>
+                <trimStrings>true</trimStrings>
+                <columnSeparator>,</columnSeparator>
+                <commentMarker>#</commentMarker>
+            </csvDataTable>
+        </fileCSV>
+        <multiLevelDimension includeUsedColumn="false" dynHierAllMember="All $HierarchyName" dataTableId="f11e4575-bb9e-40a5-9570-8402c6b72e86" isTimeDimension="false" isDefaultTimeDimension="false" isIndexingByRange="false" id="527dee00-7de7-4c6b-bf5b-09bdcbab84c3" name="start station">
+            <multiLevelHierarchy hasAllLevel="true" allLevelName="All-Level" allMemberName="All" name="start station" isDefault="true" uuid="34e5d42e-afde-4b40-bcd6-5b9e15c2e43d">
+                <factAggregationType>MEMBER_AND_ANCESTORS</factAggregationType>
+                <level uuid="7862a048-7949-47e6-bd75-7fd82149a628" name="neighborhood" ignoreNameCollision="false" nameUnique="false" nameUniqueInParent="false" keyUnique="false">
+                    <nameCol name="neighborhood"/>
+                    <orderType>NONE</orderType>
+                </level>
+                <level uuid="1f570f74-e01c-4752-a552-84e9879eabdf" name="station id" ignoreNameCollision="false" nameUnique="false" nameUniqueInParent="false" keyUnique="false">
+                    <nameCol name="station_id"/>
+                    <orderType>NONE</orderType>
+                </level>
+            </multiLevelHierarchy>
+        </multiLevelDimension>
+        <multiLevelDimension includeUsedColumn="false" dynHierAllMember="All $HierarchyName" dataTableId="3dc59a7b-9ded-4487-a521-26d4453455ba" isTimeDimension="true" isDefaultTimeDimension="true" isIndexingByRange="false" id="e3fb6c00-861c-4084-80f8-77a668519af4" name="start time">
+            <multiLevelHierarchy hasAllLevel="true" allLevelName="All-Level" allMemberName="All" name="start time" isDefault="true" uuid="d95e5c95-f752-4311-ba0b-3c83c76c765f">
+                <factAggregationType>MEMBER_AND_ANCESTORS</factAggregationType>
+                <level uuid="7def1e9e-fc71-4ce9-8c76-55f628f1df2a" name="YearL" ignoreNameCollision="false" levelType="YEAR" nameUnique="false" nameUniqueInParent="false" keyUnique="false">
+                    <nameCol name="year"/>
+                    <orderType>NONE</orderType>
+                </level>
+                <level uuid="01fa0e5a-8976-48ac-898c-e1d0e5a64348" name="MonthL" ignoreNameCollision="false" levelType="MONTH" nameUnique="false" nameUniqueInParent="false" keyUnique="false">
+                    <nameCol name="month"/>
+                    <orderType>NONE</orderType>
+                </level>
+                <level uuid="4598e7fa-682a-41f7-8d6a-c69586b12023" name="DayL" ignoreNameCollision="false" levelType="DAY" nameUnique="false" nameUniqueInParent="false" keyUnique="false">
+                    <nameCol name="start_time"/>
+                    <orderType>NONE</orderType>
+                </level>
+            </multiLevelHierarchy>
+        </multiLevelDimension>
+        <multiLevelDimension includeUsedColumn="false" dynHierAllMember="All $HierarchyName" dataTableId="3dc59a7b-9ded-4487-a521-26d4453455ba" isTimeDimension="false" isDefaultTimeDimension="false" isIndexingByRange="false" id="fd3cfb0e-a575-4b50-ab40-274e9cc7515b" name="bikes">
+            <multiLevelHierarchy hasAllLevel="true" allLevelName="All-Level" allMemberName="All" name="bikes" isDefault="true" uuid="d3355489-9f4b-41b8-a560-cd4163816747">
+                <factAggregationType>MEMBER_AND_ANCESTORS</factAggregationType>
+                <level uuid="30cecc43-bda8-4114-bff1-f9a8acb2ccd4" name="bikeID" ignoreNameCollision="false" nameUnique="false" nameUniqueInParent="false" keyUnique="false">
+                    <nameCol name="bike_id"/>
+                    <orderType>NONE</orderType>
+                </level>
+            </multiLevelHierarchy>
+        </multiLevelDimension>
+        <multiLevelDimension includeUsedColumn="false" dynHierAllMember="All $HierarchyName" dataTableId="3dc59a7b-9ded-4487-a521-26d4453455ba" isTimeDimension="false" isDefaultTimeDimension="false" isIndexingByRange="false" id="ea5aa122-77fe-418d-b1aa-d8b6793c7043" name="subscriber type">
+            <multiLevelHierarchy hasAllLevel="true" allLevelName="All-Level" allMemberName="All" name="subscriber type" isDefault="true" uuid="aacea2bb-3f2e-49a9-9ae0-f9de8f67d9a0">
+                <factAggregationType>MEMBER_AND_ANCESTORS</factAggregationType>
+                <level uuid="b65a389a-77b3-478b-81ef-45f6d9c3599f" name="subscriber type" ignoreNameCollision="false" nameUnique="false" nameUniqueInParent="false" keyUnique="false">
+                    <nameCol name="subscriber_type"/>
+                    <orderType>NONE</orderType>
+                </level>
+            </multiLevelHierarchy>
+        </multiLevelDimension>
+        <cube id="79f2d9c1-aac1-43db-bf11-23718fe13db2" name="bikeTCube">
+            <defaultFacts uuid="9db24734-4bf6-43cb-aa64-0b639f8267a2" measureGroupName="Trip price count" partitioningType="NONE" newGeneration="true" dataTableId="3dc59a7b-9ded-4487-a521-26d4453455ba" aggregateDataSourceFacts="false" unresolvedRowsBehavior="ERROR">
+                <rowFactAggregationType>ADD_ROW</rowFactAggregationType>
+                <measure uuid="34c3f9d3-cf91-4f17-b82e-4c8bef430220" name="Trip Id" aggregationType="COUNT">
+                    <dataColumn name="trip_id"/>
+                    <cellProperties>FORMAT_STRING="Standard"</cellProperties>
+                    <emptyIsZero>true</emptyIsZero>
+                </measure>
+                <measure uuid="771a9264-a8bf-44e8-a671-b0b2159ebb05" name="Trip Price" aggregationType="SUM">
+                    <dataColumn name="trip_price"/>
+                    <cellProperties>FORMAT_STRING="Standard"</cellProperties>
+                    <emptyIsZero>false</emptyIsZero>
+                </measure>
+                <links dimensionId="527dee00-7de7-4c6b-bf5b-09bdcbab84c3">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="start_station_id"/>
+                    </viewLinks>
+                </links>
+                <links dimensionId="e3fb6c00-861c-4084-80f8-77a668519af4">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="start_time"/>
+                    </viewLinks>
+                </links>
+                <links dimensionId="fd3cfb0e-a575-4b50-ab40-274e9cc7515b">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="bike_id"/>
+                    </viewLinks>
+                </links>
+                <links dimensionId="ea5aa122-77fe-418d-b1aa-d8b6793c7043">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="subscriber_type"/>
+                    </viewLinks>
+                </links>
+            </defaultFacts>
+            <defaultFacts uuid="64dadd68-c92f-4641-bfda-897ffe640ec8" measureGroupName="Trip duration" partitioningType="NONE" newGeneration="true" dataTableId="3dc59a7b-9ded-4487-a521-26d4453455ba" aggregateDataSourceFacts="false" unresolvedRowsBehavior="ERROR">
+                <rowFactAggregationType>ADD_ROW</rowFactAggregationType>
+                <measure uuid="a4cec814-33ff-4713-b6c9-ba93beb5fc23" name="Duration Minutes" aggregationType="SUM">
+                    <dataColumn name="duration_minutes"/>
+                    <cellProperties>FORMAT_STRING="Standard"</cellProperties>
+                </measure>
+                <measure uuid="e17021c9-8880-437b-a598-97e3bdde295b" name="Duration average" aggregationType="AVG_LEAVES">
+                    <dataColumn name="duration_minutes"/>
+                </measure>
+                <links dimensionId="fd3cfb0e-a575-4b50-ab40-274e9cc7515b">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="bike_id"/>
+                    </viewLinks>
+                </links>
+                <links dimensionId="527dee00-7de7-4c6b-bf5b-09bdcbab84c3">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="start_station_id"/>
+                    </viewLinks>
+                </links>
+                <links dimensionId="e3fb6c00-861c-4084-80f8-77a668519af4">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="start_time"/>
+                    </viewLinks>
+                </links>
+                <links dimensionId="ea5aa122-77fe-418d-b1aa-d8b6793c7043">
+                    <viewLinks type="LAST_LEVEL">
+                        <toColumns name="subscriber_type"/>
+                    </viewLinks>
+                </links>
+            </defaultFacts>
+        </cube>
+        <script>
+            <content>-- 
+-- Drop all calc. members, sets and functions declared at schema/cube levels. 
+-- 
+
+DROP *
+
+
+-- 
+-- Functions 
+-- 
+
+-- 
+-- Sets. 
+-- 
+
+-- 
+-- Calculated Measures/Members. 
+-- 
+
+</content>
+        </script>
+    </schemaDefinition>
+</schemaFactory>
